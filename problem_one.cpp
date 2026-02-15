@@ -12,7 +12,7 @@ int main(int argc, char *argv[]){
     
     for(int i = 0; i < n; i++){
         if(rank == 0){
-            if(i > 1){
+            if(i >= 1){
                 sent_int++;
             }
             //send to next node
